@@ -1,0 +1,61 @@
+public class Cat {
+
+	private String name;
+	private int lives = 5;
+
+	Cat(String name) {
+		this.name = name;
+	}
+
+	void meow() {
+		System.out.println("meeeeeooooooooooowwwwwwwww!!");
+	}
+
+	public void printName() {
+		if (name == null)
+			System.out.println("i don't know my own name!");
+		else
+			System.out.println("my name is " + name);
+	}
+
+	void kill() {
+		lives--;
+		if (lives > 0)
+			System.out.println("nice try, but Harambe still has " + lives + " lives left");
+		else if (lives < 0)
+			System.out.println("that's overkill, Harambe already died for our sins once!");
+		else
+			System.out.println("DEAD HARAMBE R.I.P.");
+	}
+
+	public static void main(String[] args) {
+		/* Do the following things without changing the Cat class */
+		Cat meinKaat = new Cat("Cyborg Harambe");
+		Cat meinKat = new Cat("Harambe");
+		// 1. Make the Cat meow
+		meinKaat.meow();
+		meinKat.meow();
+		// 2. Get the Cat to print it's name
+		meinKaat.printName();
+		meinKat.printName();
+		// 3. Kill the Cat!
+		meinKat.kill();
+		meinKat.kill();
+		meinKat.kill();
+		meinKat.kill();
+		meinKat.kill();
+		meinKat.kill();
+		meinKat.kill();
+		meinKaat.kill();
+		meinKaat.kill();
+		System.out.println(meinKat.lives);
+		
+	}
+
+	private void printlives() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+
