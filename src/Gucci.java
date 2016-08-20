@@ -13,6 +13,13 @@ public class Gucci {
 		if(Bling > 0){
 			System.out.println("Nice try sucka");
 		}
+		else if ( Bling < 0){
+		 
+		
+			
+		}
+		
+		
 		else{
 			System.out.println("Bling = swiped my dude");
 		}
