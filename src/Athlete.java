@@ -27,6 +27,4 @@ static String startTime = "9:00 A.M.";
 		System.out.println(Sarah.name + " is running in " + Sarah.location);
 	}
 	
-	
-	
 }
